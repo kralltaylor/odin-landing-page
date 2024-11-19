@@ -101,13 +101,13 @@ body {
 
 .logo {
     font-size: 24px;
-    color: #f9faf8;
+    color: #F9FAF8;
     font-weight: 500;
 }
 
 .header-links {
     display: flex;
-    color: #ced0d3;
+    color: #E5E7EB;
     font-size: 18px;  
     font-weight: 300;
     gap: 24px;
@@ -202,4 +202,25 @@ body {
 
 .info-text {
     text-align: center;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 100px 200px; 
+
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    margin-bottom: 10px;
+}
+
+.quote-signature {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: right;
+    padding-right: 40px;
 }
