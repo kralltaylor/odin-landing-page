@@ -163,3 +163,43 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 200px; 
+    margin-bottom: 80px;
+}
+
+.info-headline {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-around;
+}
+
+.info {
+    width: 180px;
+    flex-shrink: 0;
+}
+
+.info-image {
+    width: 180px;
+    height: 180px;
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.info-text {
+    text-align: center;
+}
