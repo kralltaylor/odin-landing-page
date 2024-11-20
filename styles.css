@@ -103,12 +103,15 @@ body {
     font-size: 24px;
     font-weight: 500;
 }
+.logo img {
+    height: 80px;
+}
 
-.logo a {
+/* .logo a {
     text-decoration: none;
     color: #F9FAF8;
 
-}
+} */
 
 .header-links {
     display: flex;
