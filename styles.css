@@ -101,8 +101,13 @@ body {
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8;
     font-weight: 500;
+}
+
+.logo > a {
+    text-decoration: none;
+    color: #F9FAF8;
+
 }
 
 .header-links {
@@ -111,6 +116,17 @@ body {
     font-size: 18px;  
     font-weight: 300;
     gap: 24px;
+}
+
+.header-links > a {
+    text-decoration: none;
+    color: #E5E7EB;
+
+}
+
+.header-links > a:hover{
+    color: #d2daea;
+
 }
 
 .dashboard {
@@ -127,11 +143,11 @@ body {
 
 .dashboard-text {
     /* border: 2px dotted gray; */
-    flex: 1;
+    flex: 1 1 400px;
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    min-width: 400px; 
+    gap: 12px; 
+    width: 100%;
 }
 
 .headline {
@@ -148,7 +164,7 @@ body {
 }
 
 .signup {
-    background-color: #3882f6;
+    background-color: #3882F6;
     color: #e5e7eb;
     font-size: 18px;  
     font-weight: 700;
@@ -156,15 +172,32 @@ body {
     height: 35px;
     border: 0px;
     border-radius: 8px;
+    
 }
 
-.placeholder {
+.signup:hover {
+    background-color: #2658a7;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.24), 0 13px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+.signup:active {
+    background-color: #224d93;
+    transform: translateY(1px);
+}
+
+.img-container {
     background-color: gray;
     display: flex;
-    height: 200px;
-    flex: 0 0 400px;
+    /* flex-shrink: 0; */
+    /* width: 400px; */
+    /* max-width: 700px; */
+    flex: 1 1 400px;
     align-items: center;
     justify-content: center;
+}
+.placeholder {
+    min-width: 0;
+    max-width: 100%;
 }
 
 .information {
@@ -273,6 +306,15 @@ body {
 
 .call-to-action .signup {
     border: 2px solid #E5E7EB;
+}
+.call-to-action .signup:hover {
+    background-color: #316dcc;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.24), 0 13px 50px 0 rgba(0,0,0,0.19);
+
+}
+.call-to-action .signup:active {
+    background-color: #2d62b9;
+    transform: translateY(1px);
 }
 
 .footer {
