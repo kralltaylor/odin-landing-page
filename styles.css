@@ -84,18 +84,18 @@ body {
 
 .hero {
     background-color: #1F2937;
-    color: white;
-    padding: 16px 200px;
+    color: #E5E7EB;
+    padding: 16px 0px;
     align-items: flex-start;
 }
 
 .header {
     /* border: 2px dotted white; */
-    min-width: 400px;
+    max-width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 70px;
+    margin: 0px 10% 70px 10%;
     gap: 24px;
 }
 
@@ -114,6 +114,9 @@ body {
 }
 
 .dashboard {
+    /* border: 2px dotted white; */
+    margin: 0px 10%;
+    max-width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -138,7 +141,7 @@ body {
 }
 
 .subtext {
-    color: #e5e7eb;
+    color: #E5E7EB;
     font-size: 18px;  
     font-weight: 300;
     padding-bottom: 5px;
@@ -165,11 +168,13 @@ body {
 }
 
 .information {
+    /* border: 2px dotted black; */
+    max-width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 200px; 
-    margin-bottom: 80px;
+    padding: 40px 0; 
+    margin: 0 10% 80px 10%;
 }
 
 .info-headline {
@@ -178,11 +183,18 @@ body {
     color: #1f2937;
     text-align: center;
     padding-bottom: 40px;
+    margin: 0 10%;
+    max-width: 100%;
+
+
 }
 
 .info-container {
+    /* border: 2px dotted black; */
+    margin: 0 10%;
     display: flex;
     flex-wrap: wrap;
+    max-width: 100%;
     gap: 40px;
     justify-content: space-around;
 }
@@ -205,22 +217,72 @@ body {
 }
 
 .quote-container {
-    background-color: #E5E7EB;
-    padding: 100px 200px; 
-
+    /* border: 2px dotted black; */
+    /* background-color: #E5E7EB; */
+    margin: 0px 10% 10px 10%;
+    max-width: 80%;
+    padding: 100px 0px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .quote {
+    /* border: 2px dotted black; */
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
     color: #1F2937;
-    margin-bottom: 10px;
+    width: 800px;
+    max-width: 100%;
 }
 
 .quote-signature {
+    /* border: 2px dotted black; */
     font-size: 24px;
     font-weight: 500;
+    margin: 0px 10% 0px 10%;
+    /* min-width: 400px; */
+    width: 800px;
+    max-width: 100%;
     text-align: right;
-    padding-right: 40px;
+    
+}
+
+.call-to-action {
+    margin: 100px 10%;
+    padding: 50px 100px;
+    background-color: #3882F6;
+    min-width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    color: #E5E7EB;
+}
+
+
+
+.action-headline {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.call-to-action .signup {
+    border: 2px solid #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 30px 0px;
+    /* text-align: center; */
+}
+
+.copyright {
+    margin: 0 10%;
+    text-align: center;
 }
